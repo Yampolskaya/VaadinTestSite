@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;../history/src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta name="vaadin-version" content="7.7.0">
+ </head> 
+ <body> 
+  <vaadin-vertical-layout size-full> 
+   <vaadin-horizontal-layout size-full :expand> 
+    <vaadin-vertical-layout spacing responsive width="300px" height-full> 
+     <vaadin-image source="theme://img/foto1.jpg" size-full _id="foto1" :expand></vaadin-image> 
+     <vaadin-button style-name="link" width-full plain-text _id="historyLink">
+       Опорний конспект з Історії 
+     </vaadin-button> 
+     <vaadin-button style-name="link" width-full plain-text _id="humanLink">
+       Опорний конспект з "Людина і світ" 
+     </vaadin-button> 
+     <vaadin-button style-name="link" width-full plain-text _id="jurisprudenceLink">
+       Опорний конспект з Правознавства 
+     </vaadin-button> 
+     <vaadin-button style-name="link" width-full plain-text _id="mainPage">
+       На головну сторінку 
+     </vaadin-button> 
+    </vaadin-vertical-layout> 
+    <vaadin-label responsive size-full plain-text _id="content" :expand>
+      Label 
+    </vaadin-label> 
+   </vaadin-horizontal-layout> 
+   <vaadin-horizontal-layout width-full> 
+    <vaadin-button width-full plain-text _id="historyTest" :expand>
+      Пройти тест з Історії 
+    </vaadin-button> 
+    <vaadin-button width-full plain-text _id="humanTest" :expand>
+      Пройти тест з "Людина і світ" 
+    </vaadin-button> 
+    <vaadin-button width-full plain-text _id="jurisprudenceTest" :expand>
+      Пройти тест з Правознавства 
+    </vaadin-button> 
+   </vaadin-horizontal-layout> 
+  </vaadin-vertical-layout>  
+ </body>
+</html>

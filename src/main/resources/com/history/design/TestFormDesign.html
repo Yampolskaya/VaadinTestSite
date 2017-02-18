@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;../history/src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta name="vaadin-version" content="7.7.0">
+ </head> 
+ <body> 
+  <vaadin-vertical-layout size-full> 
+   <vaadin-horizontal-layout width-full> 
+    <vaadin-label style-name="h4" plain-text _id="questionNumber">
+      Label 
+    </vaadin-label> 
+    <vaadin-progress-bar _id="progress" :middle :right></vaadin-progress-bar> 
+   </vaadin-horizontal-layout> 
+   <vaadin-label icon="http://weknowyourdreams.com/images/spring/spring-02.jpg" size-full plain-text _id="question" :expand>
+     Label 
+   </vaadin-label> 
+   <vaadin-form-layout size-full :expand> 
+    <vaadin-check-box width="305px" _id="ansver1"></vaadin-check-box> 
+    <vaadin-check-box _id="ansver2"></vaadin-check-box> 
+    <vaadin-check-box _id="ansver3"></vaadin-check-box> 
+    <vaadin-check-box _id="ansver4"></vaadin-check-box> 
+   </vaadin-form-layout> 
+   <vaadin-horizontal-layout width-full> 
+    <vaadin-button icon="fonticon://FontAwesome/f0d9" enabled="false" style-name="large friendly" width-full plain-text _id="back" :right :expand>
+      Назад 
+    </vaadin-button> 
+    <vaadin-button icon="fonticon://FontAwesome/f0da" style-name="large icon-align-right friendly" width-full plain-text _id="forvard" :expand>
+      Вперед 
+    </vaadin-button> 
+   </vaadin-horizontal-layout> 
+  </vaadin-vertical-layout>  
+ </body>
+</html>
